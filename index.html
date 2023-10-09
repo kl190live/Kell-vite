@@ -7,26 +7,43 @@
     <title>Vite App</title>
   </head>
   <body>
+    <div id="app" class="container">
     <form>
       
-      <div>
-        <label for="url">A kep Url-je</label>
-        <input type="url" id="url">
+      <div class="row">
+        <div class="col-md-6">
+          <label for="url">A kep Url-je</label>
+        </div>
+        <div class="col-md-6">
+          <input type="url" id="url">
+        </div>
       </div>
       
-      <div>  
-        <label for="url">A kep szelessege</label>
-        <input type="number" id="szelesseg">
+      <div class="row">  
+        <div class="col-md-6"></div>
+        <label for="url" class="col-md-6">A kep szelessege</label>
+      </div>
+        <div class="col-md-6">
+        <input type="number" id="szelesseg" class="col-md-6">
+      </div>
       </div>
       
-      <div>
-        <label for="url">A kepkeret vastagsaga</label>
-        <input type="number" id="vastagsag">
+      <div class="row">
+        <div class="col-md-6">
+          <label for="url">A kepkeret vastagsaga</label>
+        </div>
+        <div class="col-md-6">
+          <input type="number" id="vastagsag" >
+        </div>
       </div>
       
-      <div>
-        <label for="url">A kepkeret szine</label>
-        <input type="color" id="szin">
+      <div class="row">
+        <div class="col-md-6">
+          <label for="url" class="col-md-6">A kepkeret szine</label>
+        </div>
+        <div class="col-md-6">
+          <input type="color" id="szin" class="col-md-6">
+        </div>
       </div>
 
   </form>
@@ -34,10 +51,10 @@
     <img src="" alt="Kép" id="kep"> 
   </div>
     <footer>
-      <p>Torok Levente 14/s</p>
-      <button>Dark mode</button>
+      <label>Keszitette: Torok Levente</label>
+      <button id="szintema">Dark mode</button>
     </footer>
-    <div id="app"></div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

@@ -1,4 +1,6 @@
-import './style.css'
+import './style.css';
+import 'bootstrap/dist/css/bootstrap.css'
+
 
 function kepkeretKeszit(){
 //Értékek beolvasása
